@@ -157,3 +157,14 @@
         let g1=newGame
         updateGame(p1,p2,g1)  
 
+<<<<<<<< HEAD:scriptFightingGame.js
+========
+
+        
+
+
+
+    </script>
+</body>
+</html>
+>>>>>>>> e0da1b35496dd07098aed038262b45cc506749d0:index.html
