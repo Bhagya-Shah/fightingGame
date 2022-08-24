@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fighting</title>
-</head>
-<body>
-    <div>
-        <label for="" id="player1">Player 1</label><br><br>
-        Q:<button id="pa1">Attack</button><br>
-        A:<button id="heal1">Heal</button>
-        <div id="stats1">100</div>
-    </div>
-    <br><br>
-    <div>
-        <label for="" id="player2">Player 2</label><br><br>
-        O:<button id="pa2">Attack</button><br>
-        L:<button id="heal2">Heal</button>
-        <div id="stats2">100</div>
-    </div>
-    <div id="result"></div>
-    <div id="commentry"></div>
-    <button id="reset">Reset</button>
-    <button id="simulate">Simulate</button>
-    <audio src="Music/fastheal.mp3" id="p1h"></audio>
-    <audio src="Music/fastpunch.mp3" id="p1a"></audio>
-    <audio src="Music/quickheal.mp3" id="p2h"></audio>
-    <audio src="Music/quickhit.mp3" id="p2a"></audio>
-    <audio src="Music/victory.mp3" id="win"></audio>
-    <script>
+
         let player1=document.getElementById("player1")
         let player2=document.getElementById("player2")
         let pa1=document.getElementById("pa1")
@@ -163,13 +132,7 @@
                     heal1.click()
                     heal2.click()
                     console.log("1")
-                    // setInterval(()=>console.log("hello"),1)
-                    
-
-                    // setInterval(()=>pa1.click(),100)
-                    // // setTimeout(()=>pa2.click(),100)
-                    // // setTimeout(()=>heal1.click(),110)
-                    // // setTimeout(()=>heal2.click(),110)
+                  
                 }
             }
         }
@@ -194,11 +157,3 @@
         let g1=newGame
         updateGame(p1,p2,g1)  
 
-
-        
-
-
-
-    </script>
-</body>
-</html>
